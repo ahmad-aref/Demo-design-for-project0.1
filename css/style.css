@@ -1,0 +1,165 @@
+body *{
+	direction: rtl;
+	text-align: right ;
+	font-weight: 400;
+
+}
+.navbar-toggler-icon{
+	color: #fff !important
+}
+body{
+	background-color: #f8f8f8
+}
+.head{
+	margin-bottom: 20px
+}
+.search{
+}
+nav{
+	background-color: #ffffff;
+	
+
+}
+#navbar{
+	padding-right: 0px !important; 
+}
+nav *{
+
+		direction: ltr;
+
+}
+.logo *{
+		direction: rtl !important;
+
+}
+.nav-link{
+	color: #4a4a4a !important;
+
+}
+
+.hero {
+	background-image:linear-gradient(141deg,#009e6c,#00d1b2 71%,#00e7eb);
+	color: #fff;
+	line-height:1.5;
+	padding: 10px
+}
+.Table{
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 15px
+}
+.dropdown button,.search{
+	width: 100% !important
+}
+img{
+	width: 90px;
+	height: 90px;
+	 border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#myImg:hover { transform: scale(1.8); }
+
+button{
+	background: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+	height: 50%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+.footer{
+	margin-top: 60px;
+	padding: 20px;
+	text-align: center
+}
+
+.footer .col-4{
+	text-align: center !important
+}
+.table td, .table th {
+	padding: 0;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
